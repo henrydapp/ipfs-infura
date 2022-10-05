@@ -1,4 +1,4 @@
-## ipfs-mini
+## ipfs-infura
 
 <div>
   <!-- Dependency Status -->
