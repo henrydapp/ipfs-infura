@@ -35,6 +35,8 @@ IPFS.prototype.setProvider = function setProvider(provider) {
     pinning: true,
     port: '5001',
     protocol: 'http',
+    projectId: '',
+    projectSecret: '',
     base: '/api/v0' }, provider || {});
   self.requestBase = String(`${data.protocol}://${data.host}:${data.port}${data.base}`);
 };
@@ -83,6 +85,8 @@ IPFS.prototype.sendAsync = function sendAsync(opts, cb) {
       if (options.accept) {
         request.setRequestHeader('accept', options.accept);
       }
+
+      request.setRequestHeader("Authorization", "Basic " + Buffer.from(self.provider.projectId + ':' + self.provider.projectSecret).toString('base64'))
 
       if (options.payload && options.boundary) {
         request.setRequestHeader('Content-Type', `multipart/form-data; boundary=${options.boundary}`);
