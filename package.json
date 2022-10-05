@@ -1,8 +1,8 @@
 {
   "name": "ipfs-infura",
-  "version": "1.1.5",
-  "description": "A super tiny module for querying an IPFS node Infura that works in nodejs and the browser.",
-  "main": "lib/index.js",
+  "version": "1.1.8",
+  "description": "A super tiny module for querying an IPFS Infura node that works in nodejs and the browser.",
+  "main": "src/index.js",
   "files": [
     "dist",
     "internals",
