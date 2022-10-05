@@ -190,7 +190,13 @@ Result output `ipfsHash` **String**.
 
 ```js
 const IPFS = require('ipfs-infura');
-const ipfs = new IPFS({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' });
+const ipfs = new IPFS({
+  host: 'ipfs.infura.io', 
+  port: 5001, 
+  protocol: 'https', 
+  projectId: '', 
+  projectSecret: '' 
+});
 
 ipfs.add('hello world!', (err, result) => {
   console.log(err, result);
@@ -236,7 +242,13 @@ Result output `data` **String**.
 
 ```js
 const IPFS = require('ipfs-infura');
-const ipfs = new IPFS({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' });
+const ipfs = new IPFS({
+  host: 'ipfs.infura.io', 
+  port: 5001, 
+  protocol: 'https', 
+  projectId: '', 
+  projectSecret: '' 
+});
 
 ipfs.cat('QmTp2hEo8eXRp6wg7jXv1BLCMh5a4F3B7buAUZNZUu772j', (err, result) => {
   console.log(err, result);
@@ -258,8 +270,14 @@ Queries a `/cat` request, returns data as a parsed JSON object.
 Result output `data` **Object**.
 
 ```js
-const IPFS = require('ipfs-mini');
-const ipfs = new IPFS({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' });
+const IPFS = require('ipfs-infura');
+const ipfs = new IPFS({
+  host: 'ipfs.infura.io', 
+  port: 5001, 
+  protocol: 'https', 
+  projectId: '', 
+  projectSecret: '' 
+});
 
 ipfs.catJSON('QmTp2hEo8eXRp6wg7jXv1BLCMh5a4F3B7buAUZNZUu772j', (err, result) => {
   console.log(err, result);
@@ -282,7 +300,13 @@ Result output stats `data` **Object**.
 
 ```js
 const IPFS = require('ipfs-infura');
-const ipfs = new IPFS({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' });
+const ipfs = new IPFS({
+  host: 'ipfs.infura.io', 
+  port: 5001, 
+  protocol: 'https', 
+  projectId: '', 
+  projectSecret: '' 
+});
 
 ipfs.stat('QmTp2hEo8eXRp6wg7jXv1BLCMh5a4F3B7buAUZNZUu772j', (err, result) => {
   console.log(err, result);
