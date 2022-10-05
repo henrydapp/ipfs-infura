@@ -51,7 +51,13 @@ npm install --save ipfs-infura
 
 ```js
 const IPFS = require('ipfs-infura');
-const ipfs = new IPFS({ host: 'ipfs.infura.io', port: 5001, protocol: 'https', projectId: '', projectSecret: '' });
+const ipfs = new IPFS({
+  host: 'ipfs.infura.io', 
+  port: 5001, 
+  protocol: 'https', 
+  projectId: '', 
+  projectSecret: '' 
+});
 
 ipfs.add('hello world!').then(console.log).catch(console.log);
 
