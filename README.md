@@ -1,40 +1,5 @@
 ## ipfs-infura
 
-<div>
-  <!-- Dependency Status -->
-  <a href="https://david-dm.org/SilentCicero/ipfs-mini">
-    <img src="https://david-dm.org/SilentCicero/ipfs-mini.svg"
-    alt="Dependency Status" />
-  </a>
-
-  <!-- devDependency Status -->
-  <a href="https://david-dm.org/SilentCicero/ipfs-mini#info=devDependencies">
-    <img src="https://david-dm.org/SilentCicero/ipfs-mini/dev-status.svg" alt="devDependency Status" />
-  </a>
-
-  <!-- Build Status -->
-  <a href="https://travis-ci.org/SilentCicero/ipfs-mini">
-    <img src="https://travis-ci.org/SilentCicero/ipfs-mini.svg"
-    alt="Build Status" />
-  </a>
-
-  <!-- NPM Version -->
-  <a href="https://www.npmjs.org/package/ipfs-mini">
-    <img src="http://img.shields.io/npm/v/ipfs-mini.svg"
-    alt="NPM version" />
-  </a>
-
-  <!-- Test Coverage -->
-  <a href="https://coveralls.io/r/SilentCicero/ipfs-mini">
-    <img src="https://coveralls.io/repos/github/SilentCicero/ipfs-mini/badge.svg" alt="Test Coverage" />
-  </a>
-
-  <!-- Javascript Style -->
-  <a href="http://airbnb.io/javascript/">
-    <img src="https://img.shields.io/badge/code%20style-airbnb-brightgreen.svg" alt="js-airbnb-style" />
-  </a>
-</div>
-
 <br />
 
 A super tiny module for querying an IPFS node Infura, that works in the browser and in Node. Only **2.76 kB** compressed!

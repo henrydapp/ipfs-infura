@@ -36,9 +36,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/silentcicero/ipfs-infura/issues"
+    "url": "https://github.com/henrydapp/ipfs-infura/issues"
   },
-  "homepage": "https://github.com/silentcicero/ipfs-infura#readme",
+  "homepage": "https://github.com/henrydapp/ipfs-infura#readme",
   "browser": {
     "xmlhttprequest": false,
     "./src/lib/XMLHttpRequest.js": "./src/lib/XMLHttpRequest-browser.js",
